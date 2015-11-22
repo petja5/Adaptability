@@ -1,0 +1,7 @@
+1. Kako bi sedaj vse to povezal v celoto?Kakšna je najboljša pot in princip dela?
+
+2. Kako lahko še preverjam delovanje jQuery? sedaj uporabljam:
+alert("Hello!"); (preverim ali funkcija deluje)
+.css({"background-color": "red"}); (preverim ali sem izbral pravi element)
+
+3. Pixel densitiy: Obstaja še kakšna rešitev? Kako jo lahko testiram? Zakaj nobena moja ne deluje?

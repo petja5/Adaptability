@@ -1,0 +1,133 @@
+#IDSwitch{
+     background: -webkit-linear-gradient(-45deg, #565353 0%,#302f2f 100%);
+    padding-bottom: 70px;     
+}
+
+.name{
+	position: absolute;
+    left: 223px;
+    top: 163px;
+    font-weight: 700;
+}
+
+.profil{
+    position: absolute;
+    width: 160px;
+    left: 38px;
+    top:104px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    
+}
+
+.IDSwitch-card{
+    margin-top: 150px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.IDSwitch-card div{
+    -moz-transform: scale(0.8) skew(26deg, -17deg);
+    -webkit-transform: scale(0.8) skew(26deg, -17deg);
+    -o-transform: scale(0.8) skew(26deg, -17deg);
+    -ms-transform: scale(0.8) skew(26deg, -17deg);
+    transform: scale(0.8) skew(26deg, -17deg);
+}
+
+.IDSwitch-menu{
+    margin: 50px 0 0 100px;
+}
+
+#placeholder {
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff;
+}
+
+#placeholder:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.dropdown-menu{
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff !important;
+    border-bottom: 1px solid #fff;
+    margin-top: 0 !important;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+     box-shadow: none;
+}
+
+.dropdown-menu>li>a {
+    color: #fff;
+}
+
+.dropdown-menu>li>a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    
+}
+
+.caret {
+    float: right;
+    margin-top: 8px;
+}
+
+.btn{
+	text-align: left;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    border-radius: 0;
+}
+
+/************ Smaller screen **********/
+
+@media only screen and (max-width: 991px) {
+  
+   .IDSwitch-menu {
+    margin: 50px 20px 0 20px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
