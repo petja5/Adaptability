@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+
+div {
+    display: none;
+}
+
+</style>
+
+
+
+</head>
+
+<body>
+	<ul>
+		<a class="dropdownIme" href="hidden_alenka">Alenka</a>
+		<a class="dropdownIme" href="hidden_marko">Marko</a>
+		<a class="dropdownIme" href="hidden_hasan">Hasan</a>
+	</ul>
+
+
+	<div id="hidden_alenka"><p>Alenka</p></div>
+	<div id="hidden_marko">
+		<p>Marko</p>
+		<img src="http://static.tumblr.com/gg6h6gt/aK4ma68f0/red-light-300x300.jpg">
+	</div>
+	<div id="hidden_hasan">
+		<p>Hasan</p>
+		<img src="http://goldenageoftruth.com/wp-content/uploads/2012/06/Green-Light.jpg">
+    </div>
+
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $('a.dropdownIme').on('click',function(e) {
+    e.preventDefault();
+    
+    var href = $(this).attr("href");
+    $("#" + href).show().siblings('div').hide();
+    });
+});
+</script>
+       
+<!-- filtrirat selekcijo div-ov za to postavitev?
+
+<div class="col-sm-6 red">
+    <div class="blue">
+        <div id="hidden_one">
+        	<p>Slika Alenka</p>
+        </div>
+		<div id="hidden_two">
+			<p>Slika marko</p><img src="http://static.tumblr.com/gg6h6gt/aK4ma68f0/red-light-300x300.jpg">
+		</div>
+		<div id="hidden_three">
+			<p>Slika Hasan</p><img src="http://goldenageoftruth.com/wp-content/uploads/2012/06/Green-Light.jpg">
+		</div>
+    </div>
+</div>
+
+-->
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+body {
+	padding-top: 70px;
+	background-color: #efefef;
+}
+.caret {
+    float: right;
+    margin-top: 8px;
+} 
+.btn{
+	text-align: left;
+}
+
+.IdCard{
+	position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+
+}
+
+.IdCard-name{
+	position: absolute;
+    left: 223px;
+    top: 163px;
+    z-index: 1;
+    font-weight: bold;
+}
+
+
+
+
+
+/***************************/
+
+.red {
+	border: 2px solid red;
+}
+.green {
+	border: 2px solid green;
+}
+.blue {
+	border: 2px solid blue;
+	margin: 5px;
+}

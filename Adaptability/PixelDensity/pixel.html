@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+
+ /*je to pravilno in kako bi to stestiral?*/
+    
+    /*#image{
+        background-image: url(img/high.jpg);
+        width: 200px;
+        height: 200px;
+    }      */
+    
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+    #image{
+        background-image: url(img/high.jpg);
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media 
+(-webkit-min-device-pixel-ratio: 1.5), 
+(min-resolution: 144dpi){    
+    #image{
+        background-image: url(img/med.jpg);
+        width: 150px;
+        height: 150px;
+    }
+
+@media 
+(-webkit-min-device-pixel-ratio: 1.25), 
+(min-resolution: 120dpi){ 
+    #image{
+        background-image: url(img/low.jpg);
+        width: 100px;
+        height: 100px;
+    }
+}
+   
+
+</style>
+
+
+</head>
+
+<body>
+	
+    <div id="image"></div>
+    
+    <!--------------je to pravilno in zakaj to ne deluje?---------------------------->
+    <div>
+    <img src="img/low.jpg" srcset="img/med.jpg 1000w, high.jpg 2000w" alt="">  
+    </div>
+        
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
